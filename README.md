@@ -42,3 +42,46 @@ Implemente um programa que leia, valide e analise dados meteorológicos de 2021 
 ### Formato de Entrega
 
 - Arquivo ZIP contendo o código em Python (.py ou .ipynb).
+
+---
+
+## Programa de Análise de Dados Meteorológicos
+
+Este programa coleta dados meteorológicos do usuário e calcula estatísticas como temperatura média anual, quantidade de meses escaldantes e os meses mais e menos quentes do ano.
+
+## Pré-requisitos
+
+- Python 3.6 ou superior
+- pip (gerenciador de pacotes do Python)
+
+## Instalação
+
+1. Crie um ambiente virtual (recomendado):
+
+   python3 -m venv .venv
+
+2. Ative o ambiente virtual:
+
+   source .venv/bin/activate  # No Linux/macOS
+   .venv\Scripts\activate  # No Windows
+
+3. Instale as dependências:
+
+   pip install -r requirements.txt
+
+## Execução
+
+Para executar o programa, use o seguinte comando:
+
+python dados_tempo.py
+
+O programa solicitará que você insira a temperatura máxima para cada mês do ano. Após a inserção dos dados, ele calculará e exibirá as estatísticas meteorológicas.
+
+## Dependências
+
+- pandas
+- pyinputplus
+
+## Autor
+
+Guilherme de Castro - Matrícula: 4594 -  guilherme.castro005@edu.pucrs.br
