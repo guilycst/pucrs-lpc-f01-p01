@@ -35,6 +35,9 @@ def obter_dados_meteorologicos():
     Retorna:
         pandas.DataFrame: DataFrame com os dados de mês e temperatura máxima.
     """
+    
+    print("Intervalo válido para temperatura: -60 a +50 graus Celsius, tipo `float` com separador decimal ponto (.).")
+    print("Ex.: 37.1, -20.5, 10, 10.0, -10.0000, 1.000159\n")
     dados = {'Mês': [], 'Temperatura Máxima': []}
     for mes in range(1, 13):
         temperatura = pyip.inputFloat(
